@@ -7,9 +7,6 @@ export default function CTA() {
   const [sending, setSending] = useState(false);
   const [error, setError] = useState("");
 
-  
-
-
 const onSubmit = async (e) => {
   e.preventDefault();
 
